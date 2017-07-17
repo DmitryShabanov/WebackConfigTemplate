@@ -1,14 +1,16 @@
 {
   "name": "WebackConfigTemplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Template of the project using Webpack",
   "scripts": {
     "start": "webpack-dev-server --config webpack/development.js",
     "build": "webpack --config webpack/production.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryShabanov/WebackConfigTemplate.git"
+  },
+  "author": "Dmitry",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.25.0",
