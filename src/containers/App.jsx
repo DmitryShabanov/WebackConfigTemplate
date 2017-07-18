@@ -29,7 +29,7 @@ const App = ({ tracks, input, filter, onAdd, onRemove, onInputChange, onFilterCh
 );
 
 App.propTypes = {
-  tracks: PropTypes.arrayOf(PropTypes.string).isRequired,
+  tracks: PropTypes.objectOf(PropTypes.any).isRequired,
   input: PropTypes.string.isRequired,
   filter: PropTypes.string.isRequired,
   onAdd: PropTypes.func.isRequired,

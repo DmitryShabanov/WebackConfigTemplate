@@ -15,6 +15,7 @@ module.exports = {
       'react-router-dom',
       'react-redux',
       'redux',
+      'immutable',
     ],
   },
   output: paths.output,

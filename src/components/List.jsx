@@ -13,7 +13,7 @@ const List = ({ tracks, filter }) => (
 );
 
 List.propTypes = {
-  tracks: PropTypes.arrayOf(PropTypes.string).isRequired,
+  tracks: PropTypes.objectOf(PropTypes.any).isRequired,
   filter: PropTypes.string.isRequired,
 };
 
